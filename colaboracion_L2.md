@@ -8,7 +8,7 @@ export_on_save:
 ---
 # Documento de Trabajo: Ciencia Abierta   
 
-*Julio César Iturra Sanhueza*
+*Julio César Iturra Sanhueza & Juan Carlos Castillo*
 
 Asistente de la Línea de Interacciones Grupales e individuales
 
