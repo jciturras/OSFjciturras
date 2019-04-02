@@ -1,6 +1,6 @@
 ---
-bibliography: C:/Users/JC/Dropbox/Bibtex/zlibrary.bib
-csl: C:/Users/JC/Dropbox/Bibtex/apa6.csl
+bibliography: ../../Dropbox/Bibtex/zlibrary.bib
+csl: ../../Dropbox/Bibtex/apa6.csl
 output: html_document
 export_on_save:
   html: true
@@ -29,15 +29,22 @@ La primera sección abordará los principios que orientan una práctica científ
 
 </div>
 
+
+
+
 Siguiendo a  @Nosek2015, una práctica científica basada en la Ciencia Abierta posee al menos tres pilares fundamentales:
 
-<br>
+
+@. Reproducibilidad
+
+@. Apertura
+
+@. Transparencia
+
 
 - Que la investigación sea reproducible.
 - Resultados y materiales de investigaciónd de acceso libre.
-- Garantizar Transparencia como
-
-
+- Garantizar
 
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -83,8 +90,6 @@ Las implementación de una agenda de estas características contribuirá de mane
 
 En consonancia con el apartado anterior, este documento de busca contribuir a una agenda basada en los principio de la Ciencia Abierta para el Centro de Estudios de Conflicto y Cohesión Social. A continuación se se presentarán una propuesta de trabajo basada en el entorno de colaboración académica que ofrece el [*Open Science Framework*](https://osf.io/).    
 
-
-- Transa
 - [Center for Open Science](https://cos.io/)
 - [Open Science Framework](https://osf.io/)
     - [Pre-prints](https://osf.io/preprints/discover?subject=bepress%7CSocial%20and%20Behavioral%20Sciences)
