@@ -30,8 +30,6 @@ La primera sección abordará los principios que orientan una práctica científ
 </div>
 
 
-
-
 Siguiendo a  @Nosek2015, una práctica científica basada en la Ciencia Abierta posee al menos tres pilares fundamentales:
 
 
