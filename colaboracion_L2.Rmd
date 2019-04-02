@@ -16,6 +16,6 @@ output:
     - [Pre-prints](https://osf.io/preprints/)
 
 
-## Propuesta de Trabajo OSF 
+## Propuesta de Trabajo 
 
 ## ORCID
