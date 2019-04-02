@@ -29,8 +29,7 @@ La primera sección abordará los principios que orientan una práctica científ
 
 </div>
 
-
-Siguiendo a  @Nosek2015, una práctica científica basada en la Ciencia Abierta posee al menos tres pilares fundamentales:
+En el contexto de un trabajo colaborativo como parte del quehacer científico, podemos encontrar ejes orientadores o "principios" que dan forma a la manera en que es posible realizar investigación. Siguiendo a  @Nosek2015, una práctica científica basada en la Ciencia Abierta posee al menos tres pilares fundamentales:
 
 
 @. Reproducibilidad
