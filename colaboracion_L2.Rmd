@@ -1,0 +1,21 @@
+---
+title: "Colaboración Académica"
+author: "Julio César Iturra Sanhueza - jciturra@uc.cl"
+date: "21 de marzo de 2019"
+output:
+  html_document:
+    theme: cosmo
+
+---
+
+
+# Introducción
+
+- [Center for Open Science](https://cos.io/)
+- [Open Science Framework](https://osf.io/)
+    - [Pre-prints](https://osf.io/preprints/)
+
+
+## Propuesta de Trabajo OSF 
+
+## ORCID
