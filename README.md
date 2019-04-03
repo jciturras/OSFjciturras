@@ -14,7 +14,7 @@ Asistente de la Línea de Interacciones Grupales e individuales
 
 ---
 
-<div style="text-align: justify">
+
 
 ### Introducción    
 
@@ -24,10 +24,10 @@ La primera sección abordará los principios que orientan una práctica científ
 
 #### 1.  *Reproducibilidad, Apertura y Transparencia*   
 
-<div style="float:left">
+
  ![**Fig. 1**: Open science](images\openscience1.png){height=8.5em }
 
-</div>
+
 
 En el contexto de un trabajo colaborativo como parte del quehacer científico, podemos encontrar ejes orientadores o "principios" que dan forma a la manera en que es posible realizar investigación. Siguiendo a  @Nosek2015, una práctica científica basada en la Ciencia Abierta posee al menos tres pilares fundamentales:
 
@@ -60,7 +60,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 
 
-<div style="float:left; margin-left: 10px; margin-right: 25px">
+
 <caption>**Tabla 1**: Estándares para la Ciencia abierta </caption>
 |     Open Science Standards                  |
 |---------------------------------------------|
@@ -74,7 +74,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 | 7. Replication                              |
 *Fuente*: @Nosek2015
 
-</div>
+
 
 #### Ciencias Sociales
 
@@ -113,5 +113,5 @@ En consonancia con el apartado anterior, este documento de busca contribuir a un
     - Repositorio en [Github](https://github.com/jciturras/OSFjciturras) del proyecto.
 -    
 
-</div>
+
 #### Referencias
