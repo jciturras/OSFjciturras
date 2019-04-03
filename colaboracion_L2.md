@@ -72,7 +72,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 | 5. **Preregistration of studies**           |
 | 6. **Preregistration of analysis plans**    |
 | 7. Replication                              |
-*Fuente*: @Nosek2015 
+*Fuente*: @Nosek2015
 
 </div>
 
