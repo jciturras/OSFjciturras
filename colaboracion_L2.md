@@ -22,7 +22,7 @@ El presente documento tiene por objetivo realizar una introducción conceptual a
 
 La primera sección abordará los principios que orientan una práctica científica basada en la Ciencia Abierta, así también, las prácticas asociadas a una comunidad científica con miras a la producción de conocimiento que cumple con los principios de *Reproducibilidad*, *Apertura* y *Transparencia*. La segunda sección busca introducir al marco de trabajo que ofrece el _**Open Science Framework**_. Comunidad que ha facilitado el acceso libre y transparente a la investigación científica ya realizada, en curso o que su diseño se encuentra en elaboración.
 
-#### 1.  *Reproducibilidad, Apertura y Transparencia*   
+###  *Reproducibilidad, Apertura y Transparencia*   
 
 <div style="float:left">
 
@@ -32,20 +32,20 @@ La primera sección abordará los principios que orientan una práctica científ
 
 En el contexto de un trabajo colaborativo como parte del quehacer científico, podemos encontrar ejes orientadores o "principios" que dan forma a la manera en que es posible realizar investigación. Siguiendo a  @Nosek2015, una práctica científica basada en la Ciencia Abierta se orienta en base a tres dimensiones o pilares fundamentales. Éstos son Reproducibilidad, Apertura y Transparencia.
 
-@. **Reproducibilidad**:  
+#### Reproducibilidad  
 
 Cuando nos referimos a la idea de **Reproducibilidad** (*Reproducibility*), estamos hablando de cómo se vuelve factible que la evidencia producida pueda ser replicada por otros/as investigadores de la comunidad científica. En este sentido, el carácter reproducible de la investigación científica guarda relación con las distintas etapas a través de las cuales debe transitar el trabajo de las y los investigadores.
 
 
 Conforme a lo anterior, el carácter reproducible del trabajo científico requiere que las etapas de diseño, ejecución, análisis y reporte de resultados tengan presente que cada uno de estos procedimientos deben estar en conocimiento de otros/as miembros de la comunidad científica para garantizar la reproducibilidad de la investigación. De esta manera, se estaría cumpliendo con los estándares mínimos que se requieren para llevar adelante una agenda orientada a que los resultados de la investigación sean reproducibles. No obstante, para cumplir con lo mencionado, se requiere que la comunidad científica tenga acceso a la información, y es desde ahí donde la **Apertura** juega un rol fundamental.   
 
-@. **Apertura**:
+#### Apertura
 
-¿Podemos garantizar reproducibilidad cuando existen restricciones con respecto a las distintas etapas de la investigación? La respuesta a esta pregunta es *no*, y la alternativa para darle una salida es la **Apertura** (*Openness*) de los componentes y productos de la investigación.  @Nosek2015 sostienen que a lo largo del proceso científico,  la apertura juega un rol fundamental en la medida de que sin la existencia de ésta sería imposible evaluar y reproducir los resultados. En una línea similar, @Camerer2018 sugieren que el acceso abierto a los materiales de investigación permite a los miembros de una comunidad científica tomar postura con respecto a la evidencia producida por sus pares.  
+¿Podemos garantizar reproducibilidad cuando existen restricciones con respecto a las distintas etapas de la investigación? La respuesta a esta pregunta es *no*, y la alternativa para darle una salida es la **Apertura** (*Openness*) de los componentes y productos de la investigación.  @Nosek2015 sostienen que a lo largo del proceso científico,  la apertura juega un rol fundamental en la medida de que sin la existencia de ésta sería imposible evaluar y reproducir los resultados. En una línea similar, @Camerer2018 sugieren que el acceso abierto a los materiales de investigación permite a los miembros de una comunidad científica tomar postura con respecto a la evidencia producida por sus pares.   
 
 <div style="float:right; margin-left: 1px; margin-right: 1px">
 
- ![**Fig. 2**: Open Science Framework](images\osf1.png){width=15em}
+ ![**Fig. 2**: Open Science Framework](images\osf1.png){width=20em}
 
 </div>
 
@@ -59,63 +59,58 @@ iii. Estándares que incentiven a los autores/as a compartir sistemáticamente l
 
 iv. Compartir la estrategia analítica, lo cual abarca diversas dimensiones del trabajo investigativo según cada disciplina o métodos empleados. No obstante, un buen ejemplo respecto a cómo es factible cumplir con este estándar, es poner a disposición el código empleado para el análisis estadístico a través de plataformas de acceso libre. Esto último será expuesto más en detalle en el apartado final.
 
-@. **Transparencia**:
+#### Transparencia
+
+La Transparencia puede considerarse como un "objetivo transversal" de la Ciencia Abierta. Basado en los cuatro puntos señalados en el apartado anterior, poner a disposición de la comunidad científica todo el proceso investigativo permite obtener mayores grados de confianza en los resultados reportados, y de esta manera discernir entre aquellos que representan un aporte para las discusiones disciplinares y cuáles no.          
 
 <div style="float:left; margin-left: 10px; margin-right: 25px;">
 <caption>**Tabla 1**: Estándares para la Ciencia abierta </caption>
 |     Open Science Standards                  |
 |---------------------------------------------|
 | 1. Citations Standards                      |
-| 2. **Data Transparency**                    |
-| 3. **Analytic methods (code) transparency** |
+| 2. Data Transparency**                      |
+| 3. Analytic methods (code) transparency     |
 | 3. Research materials transparency          |
 | 4. Design and analysis transparency         |
-| 5. **Preregistration of studies**           |
-| 6. **Preregistration of analysis plans**    |
+| 5. Preregistration of studies               |
+| 6. Preregistration of analysis plans        |
 | 7. Replication                              |
 *Fuente*: @Nosek2015
 
 </div>
 
+En el diseño de proyectos de investigación en el marco de trabajo de la Ciencia Abierta, existen medidas como apunta a la reducción de sesgos sistemáticos u omisión de resultados considerados "poco relevantes" por los/as investigadores, tales como el **pre-registro del plan de análisis** [@Nosek2015; @Camerer2018].
 
-La transparencia puede considerarse como un "objetivo transversal"
+Para el caso de los estudios observacionales u experimentales         
+
+Distinción entre investigación exploratoria o "creadora de hipótesis" e investigación confirmatoria o "testeadora de hipótesis"
+
+@Nosek2018
 
 - no solo reportar resultados estadísticamente significativos, sino también los nulos o resultados fallidos.
-- pre-registro
-@Camerer2018
-@Chen2019
 
 
-Diseño, Materiales y Publicación.   
-
-El Diseño de la investigación   
-- pre-registro de planes de análisis
-
-Materiales de investigación
-  - Producción de información
-  - Análisis
-  - Datos abiertos
-
-Publicación
+* Publicación
   - Plataformas de acceso libre
+
+---
 
 - Diseño de investigación
 - Materiales de investigación / registro de plan de análisis  
 - Apertura de Datos
 - De conocimiento
 - Que la investigación sea reproducible.
-- Resultados y materiales de investigaciónd de acceso libre.
+- Resultados y materiales de investigación de acceso libre.
 - Garantizar
 
 
 
-#### Ciencias Socialess
+#### Ciencias Sociales
 
 a. Estudios experimentales
 b. Estudios cuantitativos de corte transversal
 c. Estudios cualitativos
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ### Características del segundo periodo del Centro
 
@@ -147,4 +142,5 @@ En consonancia con el apartado anterior, este documento de busca contribuir a un
 -    
 
 </div>
+
 #### Referencias
