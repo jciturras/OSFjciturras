@@ -25,13 +25,14 @@ La primera sección abordará los principios que orientan una práctica científ
 #### 1.  *Reproducibilidad, Apertura y Transparencia*   
 
 <div style="float:left">
- ![**Fig. 1**: Open science](images\openscience1.png){height=8.5em }
+
+ ![**Fig. 1**: Open science](images\openscience1.png){height=7em }
 
 </div>
 
 En el contexto de un trabajo colaborativo como parte del quehacer científico, podemos encontrar ejes orientadores o "principios" que dan forma a la manera en que es posible realizar investigación. Siguiendo a  @Nosek2015, una práctica científica basada en la Ciencia Abierta se orienta en base a tres dimensiones o pilares fundamentales. Éstos son Reproducibilidad, Apertura y Transparencia.
 
-
+Cuando se habla de Reproducibilidad,  
 
 @. **Reproducibilidad**:  
 
