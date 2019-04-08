@@ -29,7 +29,8 @@ La primera sección abordará los principios que orientan una práctica científ
 
 </div>
 
-En el contexto de un trabajo colaborativo como parte del quehacer científico, podemos encontrar ejes orientadores o "principios" que dan forma a la manera en que es posible realizar investigación. Siguiendo a  @Nosek2015, una práctica científica basada en la Ciencia Abierta posee al menos tres pilares fundamentales:
+En el contexto de un trabajo colaborativo como parte del quehacer científico, podemos encontrar ejes orientadores o "principios" que dan forma a la manera en que es posible realizar investigación. Siguiendo a  @Nosek2015, una práctica científica basada en la Ciencia Abierta se orienta en base a tres dimensiones o pilares fundamentales. Éstos son Reproducibilidad, Apertura y Transparencia.
+
 
 
 @. **Reproducibilidad**:  
@@ -45,6 +46,8 @@ En el contexto de un trabajo colaborativo como parte del quehacer científico, p
 - De conocimiento
 
 @. **Transparencia**:
+
+
 
 @Camerer2018
 @Chen2019
