@@ -4,7 +4,7 @@ csl: ../../Dropbox/Bibtex/apa6.csl
 output: html_document
 export_on_save:
   html: true
-
+  rmd: true
 ---
 # Documento de Trabajo: Ciencia Abierta
 
@@ -24,7 +24,7 @@ La primera sección abordará los principios que orientan una práctica científ
 
 ###  *Reproducibilidad, Apertura y Transparencia*   
 
-<div style="float:left">
+<div style="float:left;margin-left: 0px; margin-right: 30px;">
 
  ![**Fig. 1**: Ciencia Abierta y sus partes](images\openscience1.png){height=9em }
 
@@ -43,7 +43,7 @@ Conforme a lo anterior, el carácter reproducible del trabajo científico requie
 
 ¿Podemos garantizar reproducibilidad cuando existen restricciones con respecto a las distintas etapas de la investigación? La respuesta a esta pregunta es *no*, y la alternativa para darle una salida es la **Apertura** (*Openness*) de los componentes y productos de la investigación.  @Nosek2015 sostienen que a lo largo del proceso científico,  la apertura juega un rol fundamental en la medida de que sin la existencia de ésta sería imposible evaluar y reproducir los resultados. En una línea similar, @Camerer2018 sugieren que el acceso abierto a los materiales de investigación permite a los miembros de una comunidad científica tomar postura con respecto a la evidencia producida por sus pares.   
 
-<div style="float:right; margin-left: 1px; margin-right: 1px">
+<div style="float:right; margin-left: 30px; margin-right: 0px;">
 
  ![**Fig. 2**: Open Science Framework](images\osf1.png){width=20em}
 
@@ -63,37 +63,46 @@ iv. Compartir la estrategia analítica, lo cual abarca diversas dimensiones del 
 
 La Transparencia puede considerarse como un "objetivo transversal" de la Ciencia Abierta. Basado en los cuatro puntos señalados en el apartado anterior, poner a disposición de la comunidad científica todo el proceso investigativo permite obtener mayores grados de confianza en los resultados reportados, y de esta manera discernir entre aquellos que representan un aporte para las discusiones disciplinares y cuáles no.          
 
-<div style="float:left; margin-left: 10px; margin-right: 25px;">
+<div style="float:left; margin-left: 0px; margin-right: 30px;">
 <caption>**Tabla 1**: Estándares para la Ciencia abierta </caption>
 |     Open Science Standards                  |
 |---------------------------------------------|
 | 1. Citations Standards                      |
-| 2. Data Transparency**                      |
+| 2. Data Transparency                        |
 | 3. Analytic methods (code) transparency     |
 | 3. Research materials transparency          |
 | 4. Design and analysis transparency         |
 | 5. Preregistration of studies               |
 | 6. Preregistration of analysis plans        |
 | 7. Replication                              |
-*Fuente*: @Nosek2015
+| *Fuente*: @Nosek2015                        |
 
 </div>
 
 En el diseño de proyectos de investigación en el marco de trabajo de la Ciencia Abierta, existen medidas como apunta a la reducción de sesgos sistemáticos u omisión de resultados considerados "poco relevantes" por los/as investigadores, tales como el **pre-registro del plan de análisis** [@Nosek2015; @Camerer2018].
 
-Para el caso de los estudios observacionales u experimentales         
+@Nosek2018 sostienen que la utilidad de una práctica como el pre-registro del plan de análisis, ya sea de estudios observacionales u experimentales, permite distinguir entre la investigación exploratoria o "generadora de hipótesis" y la investigación confirmatoria o de "prueba de hipótesis". En este sentido, motivar una práctica como es el pre-registro apunta a mejorar los estándares en términos de transparencia y credibilidad de la evidencia resultante de la investigación.  
 
-Distinción entre investigación exploratoria o "creadora de hipótesis" e investigación confirmatoria o "testeadora de hipótesis"
+<br>
+<br>  
 
-@Nosek2018
 
-- no solo reportar resultados estadísticamente significativos, sino también los nulos o resultados fallidos.
+####  
+
+<div style="float:right; margin-left: 25px; margin-right: 0px;">
+
+ ![**Fig. 3**: SocArxiv -- Pre-prints](images\socarvix.jpg){width=20em}
+
+</div>
+
+a. Estudios experimentales
+b. Estudios cuantitativos de corte transversal
+c. Estudios cualitativos
+
 
 
 * Publicación
   - Plataformas de acceso libre
-
----
 
 - Diseño de investigación
 - Materiales de investigación / registro de plan de análisis  
@@ -103,13 +112,6 @@ Distinción entre investigación exploratoria o "creadora de hipótesis" e inves
 - Resultados y materiales de investigación de acceso libre.
 - Garantizar
 
-
-
-#### Ciencias Sociales
-
-a. Estudios experimentales
-b. Estudios cuantitativos de corte transversal
-c. Estudios cualitativos
 
 
 ### Características del segundo periodo del Centro
@@ -124,9 +126,9 @@ Dentro de las cinco tareas para el nuevo periodo de COES, promover una agenda de
 @. Investigación Aplicada.
 @. Redes de Colaboración.
 
-Las implementación de una agenda de estas características contribuirá de manera transversal a los objetivos de Centro, además de poner las herramientas a disposición de otras entidades académicas que manifiesten interés en desarrollar políticas institucionales basadas en los princios de la Ciencia Abierta.        
+Las implementación de una agenda de estas características contribuirá de manera transversal a los objetivos de Centro, además de poner las herramientas a disposición de otras entidades académicas que manifiesten interés en desarrollar políticas institucionales basadas en los principios de la Ciencia Abierta.        
 
-### 2. Propuesta de Trabajo
+#### Propuesta de Trabajo
 
 En consonancia con el apartado anterior, este documento de busca contribuir a una agenda basada en los principio de la Ciencia Abierta para el Centro de Estudios de Conflicto y Cohesión Social. A continuación se se presentarán una propuesta de trabajo basada en el entorno de colaboración académica que ofrece el [*Open Science Framework*](https://osf.io/).    
 
