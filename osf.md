@@ -4,7 +4,6 @@ csl: ../../Dropbox/Bibtex/apa6.csl
 output: html_document
 export_on_save:
   html: true
-  rmd: true
 ---
 # Documento de Trabajo: Ciencia Abierta
 
@@ -81,37 +80,34 @@ La Transparencia puede considerarse como un "objetivo transversal" de la Ciencia
 
 En el diseño de proyectos de investigación en el marco de trabajo de la Ciencia Abierta, existen medidas como apunta a la reducción de sesgos sistemáticos u omisión de resultados considerados "poco relevantes" por los/as investigadores, tales como el **pre-registro del plan de análisis** [@Nosek2015; @Camerer2018].
 
-@Nosek2018 sostienen que la utilidad de una práctica como el pre-registro del plan de análisis, ya sea de estudios observacionales u experimentales, permite distinguir entre la investigación exploratoria o "generadora de hipótesis" y la investigación confirmatoria o de "prueba de hipótesis". En este sentido, motivar una práctica como es el pre-registro apunta a mejorar los estándares en términos de transparencia y credibilidad de la evidencia resultante de la investigación.  
+@Nosek2018 sostienen que la utilidad de una práctica como el pre-registro del plan de análisis, ya sea de estudios observacionales u experimentales, permite distinguir entre la investigación exploratoria o "generadora de hipótesis" y la investigación confirmatoria o de "prueba de hipótesis". En este sentido, motivar una práctica como es el pre-registro apunta a mejorar los estándares en términos de transparencia y credibilidad de la evidencia resultante de la investigación. El fin último de la transparencia es crear un marco de trabajo con mayor fluidez de la información, de modo tal que    
+
+Un esfuerzo por modificar las prácticas de las y los investigadores, tiene como objetivo generar un vuelco en cómo se hace ciencia, cuestionar los incentivos que motivan a la comunidad científica a mostrar resultados estadísticamente significativos, en desmedro de los resultados "negativos" o que no confirman sus hipótesis o supuestos originales.   
 
 <br>
-<br>  
 
+#### Ciencias Sociales abiertas
 
-####  
+<div style="float:left; margin-left: 0px; margin-right: 25px;">
 
-<div style="float:right; margin-left: 25px; margin-right: 0px;">
-
- ![**Fig. 3**: SocArxiv -- Pre-prints](images\socarvix.jpg){width=20em}
+![**Fig. 4**: Material suplementario en @Camerer2018 ](images\repli1.png){width=25em}
 
 </div>
+
+Estudios como el de @Camerer2018 han demostrado la importancia del pre-registro en las Ciencias Sociales, particularmente en el diseño de experimentos en psicología y economía. En sí misma, esta investigación es un buen ejemplo respecto a cómo se puede conducir un estudio con miras a la reproducibilidad. La Figura 4 muestra cómo es posible emplear repositorios online como el [*Open Science Framework*](https://osf.io/) para poner a disposición el plan de análisis, rutinas de código y datos empleados. Así, 
+
+
 
 a. Estudios experimentales
 b. Estudios cuantitativos de corte transversal
 c. Estudios cualitativos
 
-
-
 * Publicación
   - Plataformas de acceso libre
 
-- Diseño de investigación
-- Materiales de investigación / registro de plan de análisis  
-- Apertura de Datos
-- De conocimiento
-- Que la investigación sea reproducible.
-- Resultados y materiales de investigación de acceso libre.
-- Garantizar
-
+<div style="float:center; margin-left: 25px; margin-right: 0px;">
+   ![**Fig. 3**: SocArxiv -- Pre-prints](images\socarvix.jpg){width=20em}
+</div>
 
 
 ### Características del segundo periodo del Centro
