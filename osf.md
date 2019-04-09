@@ -9,16 +9,18 @@ output:
       includes:
           in_header: academicons.html  
 ---
+
 # Documento de Trabajo: Ciencia Abierta
 
 <div style="text-align: right">
-**Julio César Iturra Sanhueza**
+**Julio César Iturra Sanhueza** [^1]
 
-Asistente de la Línea de Interacciones Grupales e individuales
+**Juan Carlos Castillo** [^2]
+
+[^1]: Asistente de la Línea de Interacciones Grupales e individuales en **[COES](https://www.coes.cl/)**
+[^2]: Subdirector e Investigador Principal en **[COES](https://www.coes.cl/)**
+
 </div>
-
-
-
 
 ---
 
@@ -99,22 +101,13 @@ Un esfuerzo por modificar las prácticas de las y los investigadores, tiene como
 
 <div style="float:left; margin-left: 0px; margin-right: 25px;">
 
-![**Fig. 4**: Material suplementario en @Camerer2018 ](images\repli1.png){width=25em}
+![**Fig. 3**: Material suplementario en @Camerer2018 ](images\repli1.png){width=25em}
 
 </div>
 
-Estudios como el de @Camerer2018 han demostrado la importancia del pre-registro en las Ciencias Sociales, particularmente en el diseño de experimentos en psicología y economía. En sí misma, esta investigación es un buen ejemplo respecto a cómo se puede conducir un estudio con miras a la reproducibilidad. La Figura 4 muestra cómo es posible emplear repositorios online como el [*Open Science Framework*](https://osf.io/) para poner a disposición el plan de análisis, rutinas de código y datos empleados. Si bien el trabajo de @Camerer2018 se encuentra orientado a la reproducibilidad de estudios experimentales, los mismos estándares pueden ser empleados en estudios cuantitativos de corte transversal. Para el último caso, el acceso abierto a las rutinas de código de análisis estadístico y a las bases de datos representan el estándar mínimo que diseños de estas características pueden seguir.
+Estudios como el de @Camerer2018 han demostrado la importancia del pre-registro en las Ciencias Sociales, particularmente en el diseño de experimentos en Psicología y Economía. En sí misma, esta investigación es un buen ejemplo respecto a cómo se puede conducir un estudio con miras a la reproducibilidad.
 
-
-[Qualitative Data Repository](https://qdr.syr.edu/deposit)  
-
-* Publicación
-  - Plataformas de acceso libre
-
-<div style="float:center; margin-left: 25px; margin-right: 0px;">
-   ![**Fig. 3**: SocArxiv -- Pre-prints](images\socarvix.jpg){width=20em}
-</div>
-
+La Figura 4 muestra cómo es posible emplear plataformas integradas como el [*Open Science Framework*](https://osf.io/) que permiten poner a disposición el plan de análisis, rutinas de código y bases de datos. Si bien el trabajo de @Camerer2018 está orientado a la reproducibilidad de estudios experimentales, los mismos estándares pueden ser empleados en estudios cuantitativos de corte transversal o longitudinal. Para el último caso, el acceso abierto a las rutinas de código de análisis estadístico, y a las bases de datos, representan un estándar mínimo pueden seguir estudios de estas características.
 
 ### Características del segundo periodo del Centro
 
@@ -134,17 +127,50 @@ Las implementación de una agenda de estas características contribuirá de mane
 
 En consonancia con el apartado anterior, este documento de busca contribuir a una agenda basada en los principio de la Ciencia Abierta para el Centro de Estudios de Conflicto y Cohesión Social. A continuación se presentarán una propuesta de trabajo basada en el entorno de colaboración académica que ofrece el [*Open Science Framework*](https://osf.io/).    
 
-- [Center for Open Science](https://cos.io/)
+
+El _**Open Science Framework**_ (en adelante OSF) es una plataforma de gestión de proyectos gratuito y abierto que facilita la colaboración a las y los investigadores a lo largo de todo el ciclo de investigación.
+
+
+ <center>
+   ![**Fig. 4**: Flujo de trabajo e Integración del Open Science Framework](images/osfint.png){width=25em}
+
+</center>
+
+
+Como herramienta de colaboración, el OSF permite crear un flujo de trabajo para un grupo de investigación que decide los niveles de privacidad y apertura posee su proyecto. En este marco, las características más relevantes del OSF son:
+
+* **Estructura de proyectos:** Gestión centralizada de archivos, datos, código e información relevante para el proyecto.
+* **Acceso Controlado:** Manejo con respecto a qué partes del proyecto son públicas o privadas, lo que facilita colaborar y compartir con el equipo de trabajo o Comunidad científica en general.     
+* **Flujo de trabajo eficiente:** Control de versiones automatizado, identificadores para proyectos y materiales, pre-registro de estudios, generador de **pre-prints** e integración con otras plataformas de gestión de datos e información.
+
+* **Repositorio confiable:**     
+
+
+---
+
 - [Open Science Framework](https://osf.io/)
-    - [Pre-prints](https://osf.io/preprints/discover?subject=bepress%7CSocial%20and%20Behavioral%20Sciences)
+  - [SocArxiv](https://osf.io/preprints/socarxiv)
+
+
 - [ORCID](https://orcid.org/)
 
-# Ejemplo
+<div style="float:right; margin-left: 25px; margin-right: 0px;">
+  ![**Fig. 5**: SocArxiv -- Pre-prints](images\socarvix.jpg){width=20em}
+</div>
+
+
+
+
+
+
+### Repositorio de Ejemplo
 
 - Open Science Framework ([Iturra, 2018](https://osf.io/xn6mh/))
     - Repositorio en [Github](https://github.com/jciturras/OSFjciturras) del proyecto.
--    
+
 
 </div>
+
+
 
 #### Referencias
