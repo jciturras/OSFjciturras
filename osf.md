@@ -1,15 +1,24 @@
 ---
 bibliography: ../../Dropbox/Bibtex/zlibrary.bib
 csl: ../../Dropbox/Bibtex/apa6.csl
-output: html_document
 export_on_save:
   html: true
+output:
+  html_document:
+      theme: yeti
+      includes:
+          in_header: academicons.html  
 ---
 # Documento de Trabajo: Ciencia Abierta
 
-*Julio César Iturra Sanhueza*
+<div style="text-align: right">
+**Julio César Iturra Sanhueza**
 
 Asistente de la Línea de Interacciones Grupales e individuales
+</div>
+
+
+
 
 ---
 
@@ -94,13 +103,12 @@ Un esfuerzo por modificar las prácticas de las y los investigadores, tiene como
 
 </div>
 
-Estudios como el de @Camerer2018 han demostrado la importancia del pre-registro en las Ciencias Sociales, particularmente en el diseño de experimentos en psicología y economía. En sí misma, esta investigación es un buen ejemplo respecto a cómo se puede conducir un estudio con miras a la reproducibilidad. La Figura 4 muestra cómo es posible emplear repositorios online como el [*Open Science Framework*](https://osf.io/) para poner a disposición el plan de análisis, rutinas de código y datos empleados. Así, 
+Estudios como el de @Camerer2018 han demostrado la importancia del pre-registro en las Ciencias Sociales, particularmente en el diseño de experimentos en psicología y economía. En sí misma, esta investigación es un buen ejemplo respecto a cómo se puede conducir un estudio con miras a la reproducibilidad. La Figura 4 muestra cómo es posible emplear repositorios online como el [*Open Science Framework*](https://osf.io/) para poner a disposición el plan de análisis, rutinas de código y datos empleados. Si bien el trabajo de @Camerer2018 se encuentra orientado a la reproducibilidad de estudios experimentales, los mismos estándares pueden ser empleados en estudios cuantitativos de corte transversal. Para el último caso, el acceso abierto a las rutinas de código de análisis estadístico y a las bases de datos representan el estándar mínimo que diseños de estas características pueden seguir. 
 
 
 
-a. Estudios experimentales
-b. Estudios cuantitativos de corte transversal
-c. Estudios cualitativos
+
+[Qualitative Data Repository](https://qdr.syr.edu/deposit)  
 
 * Publicación
   - Plataformas de acceso libre
@@ -126,7 +134,7 @@ Las implementación de una agenda de estas características contribuirá de mane
 
 #### Propuesta de Trabajo
 
-En consonancia con el apartado anterior, este documento de busca contribuir a una agenda basada en los principio de la Ciencia Abierta para el Centro de Estudios de Conflicto y Cohesión Social. A continuación se se presentarán una propuesta de trabajo basada en el entorno de colaboración académica que ofrece el [*Open Science Framework*](https://osf.io/).    
+En consonancia con el apartado anterior, este documento de busca contribuir a una agenda basada en los principio de la Ciencia Abierta para el Centro de Estudios de Conflicto y Cohesión Social. A continuación se presentarán una propuesta de trabajo basada en el entorno de colaboración académica que ofrece el [*Open Science Framework*](https://osf.io/).    
 
 - [Center for Open Science](https://cos.io/)
 - [Open Science Framework](https://osf.io/)
