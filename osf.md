@@ -8,7 +8,18 @@ output:
       theme: yeti
       includes:
           in_header: academicons.html  
+
+
 ---
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
 
 # Documento de Trabajo: Ciencia Abierta
 
@@ -131,7 +142,7 @@ En consonancia con el apartado anterior, este documento de busca contribuir a un
 El _**Open Science Framework**_ (en adelante OSF) es una plataforma de gestión de proyectos gratuito y abierto que facilita la colaboración a las y los investigadores a lo largo de todo el ciclo de investigación.
 
 
- <center>
+<center>
    ![**Fig. 4**: Flujo de trabajo e Integración del Open Science Framework](images/osfint.png){width=25em}
 
 </center>
@@ -141,36 +152,82 @@ Como herramienta de colaboración, el OSF permite crear un flujo de trabajo para
 
 * **Estructura de proyectos:** Gestión centralizada de archivos, datos, código e información relevante para el proyecto.
 * **Acceso Controlado:** Manejo con respecto a qué partes del proyecto son públicas o privadas, lo que facilita colaborar y compartir con el equipo de trabajo o Comunidad científica en general.     
-* **Flujo de trabajo eficiente:** Control de versiones automatizado, identificadores para proyectos y materiales, pre-registro de estudios, generador de **pre-prints** e integración con otras plataformas de gestión de datos e información.
+* **Flujo de trabajo eficiente:** Control de versiones automatizado, identificadores para proyectos y materiales, pre-registro de estudios, generador de **pre-prints** (ver [SocArxiv](#socarvix)) e integración con otras plataformas de gestión de datos e información.
 
-* **Repositorio confiable:**     
+* **Repositorio confiable:** Los fondos de preservación del OSF garantizan un acceso libre que se estima en unos 50 años aproximadamente.
 
-
----
-
-- [Open Science Framework](https://osf.io/)
-  - [SocArxiv](https://osf.io/preprints/socarxiv)
-
-
-- [ORCID](https://orcid.org/)
 
 <div style="float:right; margin-left: 25px; margin-right: 0px;">
-  ![**Fig. 5**: SocArxiv -- Pre-prints](images\socarvix.jpg){width=20em}
+  ![**Fig. 5**: SocArxiv](images\socarvix.jpg){width=20em}
 </div>
 
+>
+**[SocArxiv](https://osf.io/preprints/socarxiv){#socarvix}** es un servidor de preimpresión (pre-prints) de acceso abierto para las ciencias sociales. Los artículos pueden ser enviados de forma gratuita; Todos los artículos publicados pueden ser descargados gratuitamente. Las discipinas asociadas son **Antropología, Arqueología, Economía, Lingüística, Ciencias políticas, Estudios religiosos, Sociología**
+
+<br>
+<br>
 
 
 
+### Gestión de un proyecto en Open Science Framework
+
+Este apartado está destinado a ilustrar las potencialidades del OSF como repositorio para un proyecto de Tesis de Magister. Se ha elegido un proyecto de autoría propia para efectos del repositorio de ejemplo.
+
+<center>
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#tesis"> Ejemplo  </button>
+<div id="tesis" class="collapse">
+
+![](images/dash3.png){width=150%}
+
+> Iturra, J. C. (2019, April 9). Estatus Social Subjetivo y Percepción de Meritocracia: El caso de Chile. Retrieved from osf.io/xn6mh
+
+</div>
+</center>
+
+#### Generar de un Repositorio
+<center>
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#uno"> Dashboard </button>
+<div id="uno" class="collapse">
+
+![Panel de Open Science Framework](images/dash1.png){width=150%}
+</div>
+</center>
+
+<br>
+
+<center>
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#dos"> Crear proyecto </button>
+<div id="dos" class="collapse">
+
+![Creación de proyecto](images/dash2.1.png){width=150%}
+
+[Ver aquí](https://osf.io/faszq/)
+</div>
+</center>
 
 
-### Repositorio de Ejemplo
+#### Secciones de un proyecto
 
-- Open Science Framework ([Iturra, 2018](https://osf.io/xn6mh/))
-    - Repositorio en [Github](https://github.com/jciturras/OSFjciturras) del proyecto.
+1. **Wiki**
+2. **Files**
+3. **Citations**
+4. **Components**
+5. **Tags**
+
+![](images/osf-anim.gif)
+
+### Sitio Web
+
+
+- Sitio Web en [Github](https://jciturras.github.io/opscoes.github.io/) del proyecto.
+
+
+
+### Productividad académica
+
+> [ORCID](https://orcid.org/)
 
 
 </div>
-
-
 
 #### Referencias
