@@ -8,10 +8,7 @@ output:
       theme: yeti
       includes:
           in_header: academicons.html  
-
-
 ---
-
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -171,12 +168,12 @@ Como herramienta de colaboración, el OSF permite crear un flujo de trabajo para
 
 ### Gestión de un proyecto en Open Science Framework
 
-Este apartado está destinado a ilustrar las potencialidades del OSF como repositorio para un proyecto de Tesis de Magister. Se ha elegido un proyecto de autoría propia para efectos del repositorio de ejemplo.
+Este apartado está destinado a ilustrar las potencialidades del OSF como repositorio para un proyecto de Tesis de Magister. Se ha elegido un proyecto de autoría propia que ha empleado datos de la primera ola (año 2016) de [ELSOC](http://www.elsoc.cl/) [@ELSOC2016] .
 
 <center>
 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#tesis"> Ejemplo  </button>
 <div id="tesis" class="collapse">
-
+<br>
 ![](images/dash3.png){width=150%}
 
 > Iturra, J. C. (2019, April 9). Estatus Social Subjetivo y Percepción de Meritocracia: El caso de Chile. Retrieved from osf.io/xn6mh
@@ -184,11 +181,11 @@ Este apartado está destinado a ilustrar las potencialidades del OSF como reposi
 </div>
 </center>
 
-#### Generar de un Repositorio
+#### Generar un proyecto
 <center>
-<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#uno"> Dashboard </button>
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#uno"> Dashboard en OSF </button>
 <div id="uno" class="collapse">
-
+<br>
 ![Panel de Open Science Framework](images/dash1.png){width=150%}
 </div>
 </center>
@@ -198,7 +195,7 @@ Este apartado está destinado a ilustrar las potencialidades del OSF como reposi
 <center>
 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#dos"> Crear proyecto </button>
 <div id="dos" class="collapse">
-
+<br>
 ![Creación de proyecto](images/dash2.1.png){width=150%}
 
 [Ver aquí](https://osf.io/faszq/)
@@ -208,24 +205,61 @@ Este apartado está destinado a ilustrar las potencialidades del OSF como reposi
 
 #### Secciones de un proyecto
 
-1. **Wiki**
-2. **Files**
-3. **Citations**
-4. **Components**
-5. **Tags**
+1. **Wiki**: Permite agregar información importante, enlaces o imágenes que faciliten la descripción su proyecto.
+2. **Archivos (_Files_)**: Permite elegir en un proveedor de almacenamiento o también es posible arrastrar y soltar para cargar sus archivos.
+3. **Citas (_Citations_)**: Generador de referencias bibliográficas en distintos formatos.
+4. **Componentes (_Components_)**: Los componentes son subproyectos debajo del proyecto de nivel superior. Los componentes ayudan a organizar su investigación y crear una jerarquía dentro de su proyecto principal. En el  [sitio web](http://help.osf.io/m/projects/l/481998-create-components) del OSF es posible encontrar más detalles al respecto.
+5. **Etiquetas (_Tags_)**: Etiquetas para vincular el actual proyecto con otros que declaren tópicos de investigación similares. Son análogos a las palabras clave (Keywords) en los artículos académicos.
 
 ![](images/osf-anim.gif)
+
+#### Gestión y uso de Add-ons
+
+Dentro de un proyecto, es posible emplear los **Add-ons**. Estos permiten sincronizar tus proyectos con servicios externos que ayudan a mantener la conectividad y la organización. Esta función se subdivide en dos grupos: _Citations_ y _Storage_.
+
+En _**Citations**_ es posible vincular usuarios de gestores de referencia como Mendeley o Zotero, lo cual permite mantener sincronizado nuestro proyecto con la librería empleada en el gestor de referencia.
+
+En  _**Storage**_ encontramos diversas opciones para vincular nuestro proyecto con unidades de almacenamiento o repositorios externos. Por un lado, de los servicios tipo *Cloud* es factible vincular el proyecto con cuentas de **Dropbox**, **Google Drive**, **OneDrive**, entre otros; de modo tal que el flujo de información entre el OSF y la cuenta asociada permita una actualización permanente.    
+
+Por otro lado, tenemos los repositorios como **Dataverse Project** o **GitHub**, entre otros, los cuales ofrecen la utilidad de centralizar los archivos, así como también mantener un control de versiones y un flujo de trabajo cerrado a un equipo de colaboradores.
+
+<div style="float:right; margin-left: 25px; margin-right: 0px;">
+  ![**Fig. 6**: Dataverse](https://dataverse.org/files/dataverseorg/files/dataverse_r_project.png  ){width=23em}
+</div>
+
+El [Dataverse Project](https://dataverse.org/) ofrece un **repositorio de datos abierto** y gratuito para la comunidad científica, el cual permite mantener un flujo de información constante entre Investigadores/as, Revistas, Instituciones y Desarrolladores. Al incrementar la visibilidad de las fuentes de datos al utilizar Dataverse, investigadores/as pueden obtener mayor reconocimiento por parte de la comunidad científica, así también un medio a través del cual se puede obtener un identificador único que permite citar adecuadamente la base de datos.
+
+<center>
+
+![**Fig. 7**: ELSOC en Dataverse](images/dataverseelsoc.png){width=30em}
+
+</center>
+
+* La vinculación entre Dataverse y OSF puede encontrarlo [aquí]() (En desarrollo)
+
+<div style="float:left; margin-left: 0px; margin-right: 25px;">
+  ![**Fig. 6**: Control de versiones basado en Git](https://cdn-images-1.medium.com/max/1200/1*9PnPjPI65fGwLiMfluVLrw.jpeg){width=18em}
+</div>
+
+En principio, [GitHub](https://github.com/) está orientado al almacenamiento de proyectos al alero del control de versiones basados en [Git ](https://es.wikipedia.org/wiki/Git) [^3]. Dentro de los posibles usos que se le pueden dar a GitHub, el principal ha sido el almacenamiento de código por parte de desarrolladores y programadores. Desde el punto de vista de la apertura y la colaboración, el control de versiones basado en Git ofrece la oportunidad de alojar componentes específicos de un proyecto, tales como el código de análisis y documentos en **texto plano** [^4] .     
+
+* Colaboración con GitHub y vínculo con OSF [aquí]() (En desarrollo)   
+
+
+
+[^3]: _Git_ es un sistema de control de versiones distribuido de código abierto y gratuito, diseñado para manejar todo, desde proyectos pequeños hasta proyectos muy grandes, con rapidez y eficiencia.
+
+[^4]: Para una introducción a la redacción de documentos en ``texto plano`` revisar  _"The Plain Person's Guide"_ de Kieran Healy. [ver](https://kieranhealy.org/files/papers/plain-person-text.pdf)
+
+### Identificación
+
+> [ORCID](https://orcid.org/)
 
 ### Sitio Web
 
 
-- Sitio Web en [Github](https://jciturras.github.io/opscoes.github.io/) del proyecto.
+- Sitio Web en [GitHub pages](https://jciturras.github.io/opscoes.github.io/) del proyecto.
 
-
-
-### Productividad académica
-
-> [ORCID](https://orcid.org/)
 
 
 </div>
